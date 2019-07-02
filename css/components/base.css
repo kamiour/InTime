@@ -1,0 +1,82 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0 auto;
+  border: 1px solid #e0e9f0;
+  font-family: 'Rubik';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #465a64;
+}
+
+.logo {
+  color: #009688;
+  font-size: 32px;
+  font-weight: 700;
+  align-self: center;
+  text-decoration: none;
+  align-self: center;
+}
+
+.logo-in {
+  color: black;
+}
+
+.container {
+  width: 1278px;
+  margin: 0 auto;
+}
+
+body {  
+  margin: 0;
+}
+
+.main-article {
+  margin-bottom: 98px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.icon-size {
+  height: 20px;
+  width: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3,* + h4,* + h5,* + h6 {
+  margin: 0.67em 0 0 0;
+}
+
+p, ul, ol, figure {
+  margin: 0 0 15px 0;
+}
+
+div>p {
+  margin-bottom: 0;
+}
+
+* + p, * + ul, * + ol, * + figure{
+  margin-top: 15px;
+}
+
+ul {
+  padding: 0 0 0 40px;
+  margin: 0;
+}
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ul,
+ol > li > ol {
+  margin: 0;
+}

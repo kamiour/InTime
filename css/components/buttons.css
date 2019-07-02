@@ -1,0 +1,37 @@
+.button {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding: 17px 0;
+  border-radius: 5px;
+  border: 2px solid #009688;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button-link {
+  background-color: #ffffff;
+  color: #009688;
+}
+
+.button-link:visited {
+  color: brown;
+}
+
+.button-link:hover {
+  color: tomato;
+}
+
+.button-contact {
+  background-color: #009688;
+  color: #ffffff;
+}
+
+.button-contact:visited {
+  color: black;
+}
+
+.button-contact:hover {
+  color: yellow;
+}

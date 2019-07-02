@@ -1,0 +1,22 @@
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 54px;
+  }
+  
+  .nav-item {
+    color: #282b2f;
+    text-decoration: none;
+  }
+  
+  .nav-item:visited {
+    color: brown;
+    text-decoration: none;
+  }
+    
+  .nav-item:hover {
+    color: tomato;
+    text-decoration: underline;
+  }

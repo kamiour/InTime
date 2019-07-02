@@ -1,0 +1,32 @@
+.footer-layout {
+  display: flex;
+  justify-content: space-between;
+  padding: 46px 0;
+  border-top: 1px solid #e0e9f0;
+  align-items: center;
+}
+
+.icons {
+  width: 163px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons > li {
+  list-style-type: none;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+}
+
+.trademark {
+  color: #282b2f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 38px;
+}
+

@@ -1,0 +1,51 @@
+.header{
+  margin: 0;
+  border-bottom: 1px solid #e0e9f0;
+}
+
+.header-top {
+  background-color: #f5f8fb;
+}
+
+.header-bottom {
+  background-color: white;
+}
+
+.header-layout {
+  display: flex;
+  justify-content: space-between;
+  padding: 31px 0;
+  align-items: center;
+}
+
+.header-contacts {
+  font-size: 18px;
+  font-weight: 600;
+  list-style-type: none;
+}
+
+.header-contacts-list {
+  color: #282b2f;
+  text-decoration: none;
+}
+
+.header-contacts>li {
+  margin-bottom: 14px;
+  line-height: 1;
+  padding: 0;
+}
+
+.header-contacts>li:last-child {
+  margin-bottom: 0;
+}
+
+.header-contacts>li:first-child::before {
+  content: url(../../images/call-answer.png);
+  display: inline-block;
+  width: 35px;
+  margin-left: -35px;
+}
+
+.header-contacts-list:hover {
+  text-decoration: underline;
+}

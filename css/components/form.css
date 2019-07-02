@@ -1,0 +1,53 @@
+.form {
+  margin-bottom: 40px;
+}
+
+.search {
+  position: relative;
+}
+
+.form-item {
+  margin-bottom: 16px;
+}
+
+.form-style {
+  width: 100%;
+  height: 52px;
+  border-radius: 5px;
+  padding-left: 20px;
+  border: 2px solid #e0e9f0;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.form-style::placeholder {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: 26px;
+  transform: translateY(-50%);
+}
+
+.flip-icon ~ .form-style {
+  padding-right: 66px;
+}
+
+.form-textarea {
+  resize: none;
+  height: 140px;
+  padding-top: 20px;
+}
+
+.form-p {
+  color: #455a63;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 23px;
+  margin-bottom: 35px;
+}
